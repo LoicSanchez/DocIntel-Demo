@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="PO Task" max_length="40" name="x_snc_demo_docinte_po_task" type="collection"/>
+</database>

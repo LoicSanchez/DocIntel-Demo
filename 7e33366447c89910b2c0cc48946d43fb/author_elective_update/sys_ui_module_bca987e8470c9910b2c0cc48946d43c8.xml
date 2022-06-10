@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>PO Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_demo_docinte.po_task_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-09 19:52:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bca987e8470c9910b2c0cc48946d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO Tasks</sys_name>
+        <sys_package display_value="Demo DocIntel" source="x_snc_demo_docinte">7e33366447c89910b2c0cc48946d43fb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo DocIntel">7e33366447c89910b2c0cc48946d43fb</sys_scope>
+        <sys_update_name>sys_ui_module_bca987e8470c9910b2c0cc48946d43c8</sys_update_name>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-09 19:52:08</sys_updated_on>
+        <table>x_snc_demo_docinte_po_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo DocIntel">7e33366447c89910b2c0cc48946d43fb</application>
+        <file_path/>
+        <instance_id>fc38034e1bb9051032182f8dee4bcb1f</instance_id>
+        <instance_name>outboundaidemo</instance_name>
+        <name>sys_ui_module_bca987e8470c9910b2c0cc48946d43c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>PO Tasks</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_demo_docinte.po_task_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>loic</sys_created_by><sys_created_on>2022-06-09 19:52:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bca987e8470c9910b2c0cc48946d43c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PO Tasks</sys_name><sys_package display_value="Demo DocIntel" source="x_snc_demo_docinte">7e33366447c89910b2c0cc48946d43fb</sys_package><sys_policy/><sys_scope display_value="Demo DocIntel">7e33366447c89910b2c0cc48946d43fb</sys_scope><sys_update_name>sys_ui_module_bca987e8470c9910b2c0cc48946d43c8</sys_update_name><sys_updated_by>loic</sys_updated_by><sys_updated_on>2022-06-09 19:52:08</sys_updated_on><table>x_snc_demo_docinte_po_task</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1461420271</payload_hash>
+        <record_name>PO Tasks</record_name>
+        <reverted_from/>
+        <source>79e99be0478c9910b2c0cc48946d437c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 14:16:14</sys_created_on>
+        <sys_id>825683f4470cd910b2c0cc48946d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1814df904440000001</sys_recorded_at>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 14:16:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ce5683f4480cd910ea446cb52c313a7a</update_guid>
+        <update_guid_history>ce5683f4480cd910ea446cb52c313a7a:0,38a987e8c70c99104de98621e78827cb:-298372782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>loic</sys_created_by>
+        <sys_created_on>2022-06-10 14:16:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2f488c768052416696791a5b8ff53c79</sys_id>
+        <sys_metadata>bca987e8470c9910b2c0cc48946d43c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PO Tasks</sys_name>
+        <sys_package display_value="Demo DocIntel" source="x_snc_demo_docinte">7e33366447c89910b2c0cc48946d43fb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo DocIntel">7e33366447c89910b2c0cc48946d43fb</sys_scope>
+        <sys_scope_delete display_value="">4790ee40c01f4f4882c050c20df770e4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_bca987e8470c9910b2c0cc48946d43c8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_bca987e8470c9910b2c0cc48946d43c8">825683f4470cd910b2c0cc48946d437b</sys_update_version>
+        <sys_updated_by>loic</sys_updated_by>
+        <sys_updated_on>2022-06-10 14:16:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

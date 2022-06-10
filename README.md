@@ -10,3 +10,7 @@
 - Open the link, the DocIntel UI opens in a new tab
 - Fill the values then Submit and close the tab
 - Reload the PO Task form, you should see the third work note with the extracted values
+
+
+![image](https://user-images.githubusercontent.com/44512205/173090309-769396dc-72bc-40a7-8ea4-4b73dccf8460.png)
+

@@ -2,7 +2,7 @@
     <ml_capability_definition_workflow action="INSERT_OR_UPDATE">
         <active>true</active>
         <capability display_value="Workflow">d12a03f173212010c0bbb63854f6a7b9</capability>
-        <current_solution_version/>
+        <current_solution_version>4</current_solution_version>
         <dataset_language>en</dataset_language>
         <description>DocIntel Training workflow</description>
         <fields/>
@@ -11,7 +11,7 @@
         <solution_label>docintel_training_workflow_d909d2394788d110b2c0cc48946d437f</solution_label>
         <solution_name>ml_x_snc_x_snc_demo_docinte_global_docintel_training_workflow_d909d2394788d110b2c0cc48946d437f</solution_name>
         <solution_parameters/>
-        <solution_properties>{"description":"DocIntel Training workflow","label":"docintel_training_workflow_d909d2394788d110b2c0cc48946d437f","predictPipeline":{},"schedulingInfo":{"useCase":"docintel_training_workflow","overrideCapability":{"name":"docintel_trainer","version":"21.0"}},"tags":"docintel,workflow","trainingPipeline":{"pipelineOutput":{"info":{"trainingInfo":"::docintel_training.info"},"models":{"model":"::docintel_training.model","taskIds":"::docintel_training.taskIds","metrics":"::docintel_training.metrics"}},"steps":[{"name":"docintel_training","component":"docintel_training","input":{"dataset":"::pipelineInput.datasets.training_input","keys":"::pipelineInput.datasets.keys","training_component_version":"1.0"}}],"pipelineInput":{"config":{},"datasets":{"training_input":{"tableName":"di_training_input","fieldNames":["task_definition","task","data","chunk_number","min_model_version"],"encodedQuery":"task_definition\u003dd909d2394788d110b2c0cc48946d437f^min_model_versionISEMPTY^EQ","name":"training_input"},"keys":{"tableName":"di_key","fieldNames":["name","display_name"],"encodedQuery":"task_definition\u003dd909d2394788d110b2c0cc48946d437f","name":"keys"}}}},"workflowConfiguration":{"trainingFrequency":"run_once"},"workflowLanguageVersion":"1.0.0"}</solution_properties>
+        <solution_properties>{"description":"DocIntel Training workflow","label":"docintel_training_workflow_d909d2394788d110b2c0cc48946d437f","name":"ml_x_snc_x_snc_demo_docinte_global_docintel_training_workflow_d909d2394788d110b2c0cc48946d437f","predictPipeline":{},"schedulingInfo":{"useCase":"docintel_training_workflow","overrideCapability":{"name":"docintel_trainer","version":"21.0"}},"tags":"docintel,workflow","trainingPipeline":{"pipelineOutput":{"info":{"trainingInfo":"::docintel_training.info"},"models":{"model":"::docintel_training.model","taskIds":"::docintel_training.taskIds","metrics":"::docintel_training.metrics"}},"steps":[{"name":"docintel_training","component":"docintel_training","input":{"dataset":"::pipelineInput.datasets.training_input","keys":"::pipelineInput.datasets.keys","training_component_version":"1.0","reloaded_model":"::pipelineInput.solutions.previous_model"}}],"pipelineInput":{"config":{},"solutions":{"previous_model":{"solutionName":"ml_x_snc_x_snc_demo_docinte_global_docintel_training_workflow_d909d2394788d110b2c0cc48946d437f"}},"datasets":{"training_input":{"tableName":"di_training_input","fieldNames":["task_definition","task","data","chunk_number","min_model_version"],"encodedQuery":"task_definition\u003dd909d2394788d110b2c0cc48946d437f^min_model_versionISEMPTY^EQ","name":"training_input"},"keys":{"tableName":"di_key","fieldNames":["name","display_name"],"encodedQuery":"task_definition\u003dd909d2394788d110b2c0cc48946d437f","name":"keys"}}}},"workflowConfiguration":{"trainingFrequency":"run_once"},"workflowLanguageVersion":"1.0.0"}</solution_properties>
         <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
         <sys_class_name>ml_capability_definition_workflow</sys_class_name>
         <sys_created_by>loic</sys_created_by>
@@ -19,14 +19,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3209d2394788d110b2c0cc48946d43e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>DocIntel Training workflow</sys_name>
         <sys_package display_value="Demo DocIntel" source="x_snc_demo_docinte">7e33366447c89910b2c0cc48946d43fb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demo DocIntel">7e33366447c89910b2c0cc48946d43fb</sys_scope>
         <sys_update_name>ml_capability_definition_workflow_3209d2394788d110b2c0cc48946d43e1</sys_update_name>
-        <sys_updated_by>loic</sys_updated_by>
-        <sys_updated_on>2022-06-13 13:32:14</sys_updated_on>
+        <sys_updated_by>sharedservice.worker</sys_updated_by>
+        <sys_updated_on>2022-06-13 14:24:00</sys_updated_on>
         <table/>
         <tags>docintel,workflow</tags>
         <training_frequency>run_once</training_frequency>
